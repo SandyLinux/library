@@ -17,6 +17,7 @@ class BookAdmin(admin.ModelAdmin):
 class BooksInline(admin.StackedInline):
 	model = Book
 	extra = 1
+	addition = 1
 
 #admin.site.register(Author)
 class AuthorAdmin(admin.ModelAdmin):
