@@ -5,6 +5,7 @@ class BooksInstanceInline(admin.StackedInline):
 	model = BookInstance
 	extra = 1
 	addition = 20
+	id= ''
 
 #admin.site.register(Book)
 @admin.register(Book)
